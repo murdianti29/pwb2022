@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>BIODATA MAHASISWA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <table border="1" style="width: 1000px;" align="center" cellpadding="4">
+        <tr>
+            <td align="center" colspan="3">
+                <font color="blue" size="20px">
+                    <b align="center">BIODATA MAHASISWA</b>
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="7" width="100px">
+                <img src="foto.jpeg" width="300px" height="200px" border="2">
+            </td>
+            <td>NAMA </td>
+            <td> RIFKY CAHYONO PUTRA </td>
+        </tr>
+        <tr>
+            <td> NIM </td>
+            <td> A11.2022.14726 </td>
+        </tr>
+        <tr>
+            <td> STATUS </td>
+            <td> AKTIF </td>
+        </tr>
+        <tr>
+            <td> ALAMAT </td>
+            <td> JL TAMAN ANYELIR </td>
+        </tr>
+        <tr>
+            <td>NO HP</td>
+            <td>082138282210</td>
+        </tr>
+        <tr>
+            <td>EMAIL</td>
+            <td>kiki27smg</td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>Islam</td>
+        </tr>
+
+    </table>
+    <hr>
+    <hr>
+<html>
+        <head>
+           <title>Multimedia - HTML 5</title> 
+        </head>
+        <body>
+            <h2>Membuat Video</h2>
+            <p>
+                <button onclick="durationVid()" type="button">Duration</button>
+                <button onclick="playVid()" type="button">Play Video</button>
+                <button onclick="pauseVid()" type="Pause Video">Pause Video</button>
+            </p>
+            <video id="myVideo" width="320" height="240" controls>
+                <source src="AdusKali.mp4" type="video/mp4">
+            </video>
+        </body>
+        <script>
+           var vid = document.getElementById("myVideo")
+           function durationVid() {
+                alert(vid.duration);
+           } 
+           function playVid() {
+                vid.play();
+           }
+           function pauseVid() {
+                vid.pause();
+           }
+        </script>
+</html>    
