@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Elemen form -  HTML</title>
+</head>
+<body>
+    <h2>Elemen form - HTML</h2>
+       <form action="proses.php" method="post">
+         <table>
+             <tr>
+                 <td width="120">NIM</td>
+                 <td><input type="number" name="nim">
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>Nama</td>
+                 <td><input type="text" name="nama" required></td>
+             </tr>
+            <tr>
+                <td>Tgl Lahir</td>
+                <td><input type="date" name="tgllhr" required></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="gender" value="Laki-Laki">Laki-Laki
+                    <input type="radio" name="gender" value="Perempuan">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>
+                    <select name="progdi">
+                        <option>Pilih</option>
+                        <option value="A11 Teknik informatika S1">S1 - Teknik informatika</option>
+                        <option value="A12 Sistem Informasi S1">S1 - Sistem Informasi</option>
+                        <option value="A22 Teknik Informatika D4">D4 - Teknik informatika</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Bidang Minat</td>
+                <td><input type="checkbox" name="bid" value="1"><label>Web Programing</label>
+                    <input type="checkbox" name="bid" value="2"><label>Mobile Programming</label>
+                    <input type="checkbox" name="bid" value="3"><label>Data Science</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Berkas CV</td>
+                <td><input type="file" name="cv"></td>
+
+           </tr>
+           <tr>
+                <td></td>
+                <td>
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+           </tr>
+    </form>
+</body>
+</html>
