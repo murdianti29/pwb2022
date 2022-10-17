@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <nav>
+        <a href="Untitled-1.html">Home</a> |
+        <a href="cv.html">Download CV</a> |
+        <a href="kontak.html">Contact</a> |
+        <a href="tentang.html">About me</a>
+ </nav>
+
+ <hr />
+
+ <article>
+    <h1>Sejarah Partai Gerindra</h1>
+    <p>
+        Sejarah Gerindra tidak bisa dilepaskan dari Partai Indonesia Raya (Parindra) bentukan kakek 
+        Prabowo, R.M. Margono Djojohadikusumo bersama Dr. Soetomo dan Mohammad Husni Thamrin 
+        atas saran dari Sukarno sebelum diasingkan ke Ende pada tahun 1933    
+    </p>
+    <p>
+        Pada saat itu, Sukarno tidak yakin apakah ia akan kembali ke Jakarta dan dapat melanjukan 
+        perjuangan politik unifikasi Indonesia Raya yang ditekuninya dengan Partai Nasional Indonesia. 
+        Sekembalinya Sukarno dari Ende, Parindra dibubarkan untuk memperkuat PNI. 
+    </p>
+    <p>
+        Pada tahun 2007, Prabowo mencoba mendaftarkan nama Partai Indonesia Raya ke KPU, 
+        namun gagal karena sudah pernah digunakan sebelumnya. Akhirnya ditambahkan kata 
+        "Gerakan", menjadi Gerakan Indonesia Raya (Gerindra). 
+    </p>
+    <p>
+        <button onclick="durationVid()" type="button">Duration</button>
+        <button onclick="playVid()" type="button">Play Video</button>
+        <button onclick="pauseVid()" type="button">Pause Video</button> 
+    </p>
+    <p>
+        <video id="myVideo" width="320" height="240" controls>
+        <source src="SEJARAH GERINDRA.mp4"
+        type="video/webm"/>
+        </video>
+    </p>
+    <script>
+        var vid= document.getElementById("myVideo")
+        function durationVid(){
+            vid.duration();
+        }
+        function playVid(){
+            vid.play();
+        }
+        function pauseVid(){
+            vid.pause();
+        }
+    </script>
+ </article>
+
+ <hr>
+ <footer style="text-align: center;">
+    <p>Copyright &copy; 2022</p>
+ </footer>
+</body>
+</html>
