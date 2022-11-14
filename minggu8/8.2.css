@@ -1,0 +1,17 @@
+p{
+    font-family: 'Trebuchet MS';
+    line-height: 2em;
+    color: aquamarine;
+}
+i{
+    font-family: Impact;
+    color: aqua;
+}
+h2{
+    font-family: 'Courier New';
+    color: aquamarine;}
+    body{
+        background-image: url(monkrom.jpeg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+    }
